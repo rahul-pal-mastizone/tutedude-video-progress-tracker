@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tutedude - Video Progress Tracker</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="app-header">
+    <h1>Tutedude - Video Progress Tracker</h1>
+  </header>
+
+  <main class="app-main">
+    <section class="video-section">
+      <video id="lectureVideo" controls>
+        <source src="sample-video.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+      <div class="timeline-container">
+        <div id="watchedTimeline" class="timeline-bar"></div>
+      </div>
+    </section>
+
+    <aside class="stats-section">
+      <div class="stat">
+        <label>Progress:</label>
+        <span id="progressPercent">0%</span>
+      </div>
+      <div class="stat">
+        <label>Unique Watched:</label>
+        <span id="uniqueTime">0s</span>
+      </div>
+      <div class="stat">
+        <label>Total Duration:</label>
+        <span id="totalDuration">0s</span>
+      </div>
+      <div class="stat">
+        <label>Current Time:</label>
+        <span id="currentTime">0s</span>
+      </div>
+      <button id="resetBtn">Reset Progress</button>
+    </aside>
+  </main>
+
+    <script type="module" src="main.js"></script>
+
+</body>
+</html>
