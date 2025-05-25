@@ -56,15 +56,7 @@ Progress is saved in `localStorage`, so even if the page is refreshed or reopene
 
 ---
 
-## 🗂 Folder Structure
-
-/tutedude-video-progress-tracker/
-├── index.html
-├── styles.css
-├── main.js
-├── tracker.js
-├── sample-video.mp4
-└── README.md
+<pre> ## 📁 Folder Structure <code> tutedude-video-progress-tracker/ ├── index.html ├── styles.css ├── main.js ├── tracker.js ├── sample-video.mp4 └── README.md </code> </pre>
 
 ---
 
